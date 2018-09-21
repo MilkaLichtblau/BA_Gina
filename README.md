@@ -2,8 +2,8 @@
 
 
 Table of ccontents
-1. [Dependencies](dependencies)
-1. [Quick start](quick-start)
+1. [Dependencies](#dependencies)
+1. [Quick start](#quick-start)
 
 ## Dependencies
 
