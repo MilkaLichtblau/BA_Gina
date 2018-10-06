@@ -69,7 +69,7 @@ The projects structure looks like this:
 ```
 ## How to use
 
-When you don´t want to use the full routine. You can execute all steps described in the routine figure. For most parameters a default is set. For all options have a look at the help options of the main script with: `python src/main.py -h`
+When you don´t want to use the full routine, you can execute all steps described in the routine figure. For most parameters a default is set. For all options have a look at the help options of the main script with: `python src/main.py -h`
 
 Examples for all distinct steps are listed below:
 For all example first switch into src folder:
@@ -105,3 +105,6 @@ python main.py -plot -f "../experiments/experiments_20181006_1324/ListNet/data/p
 ```
 python main.py -measure -f "../experiments/experiments_20181006_1324/ListNet/data/predictions_MERGED.csv" -r "ListNet" -k 1000 -d "../experiments/experiments_20181006_1324/ListNet"
 ```
+
+### Retrieving ranking models
+As the model retrieval as well as the predictions are computed with RankLib, please refer to: https://sourceforge.net/p/lemur/wiki/RankLib%20How%20to%20use/
