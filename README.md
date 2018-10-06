@@ -38,7 +38,7 @@
 
 #### Execution cycle of full routine
 
-![Image of the routines execution order](https://github.com/MilkaLichtblau/BA_Gina/routine_flow.png)
+![Image of the routines execution order](https://github.com/MilkaLichtblau/BA_Gina/blob/master/routine_flow.png)
 
 ## Project Structure
 
