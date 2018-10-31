@@ -1,0 +1,7 @@
+The implementation in this folder was done by Zehlike et al. and was taken from https://github.com/MilkaLichtblau/FA-IR_Ranking.
+For more detail on this implementation refer to either https://github.com/MilkaLichtblau/FA-IR_Ranking
+and/or read:
+M. Zehlike, F. Bonchi, C. Castillo, S. Hajian, M. Megahed, and R. BaezaYates, “Fa*ir: A fair top-k ranking algorithm,” in Proceedings of the 2017
+ACM on Conference on Information and Knowledge Management, ser. CIKM
+’17. New York, NY, USA: ACM, 2017, pp. 1569–1578. [Online]. Available:
+http://doi.acm.org/10.1145/3132847.3132938.

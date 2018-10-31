@@ -1,0 +1,5 @@
+Data_Set_Name,Algorithm_Name,Measure,Value
+RERANKED,RankBoost,rKL,0.059642665054209884
+RERANKED,RankBoost,DTR,0.945871447975
+RERANKED,RankBoost,DIR,0.975697505139
+RERANKED,RankBoost,FairnessAtK,1.0

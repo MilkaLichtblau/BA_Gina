@@ -1,0 +1,5 @@
+Data_Set_Name,Algorithm_Name,Measure,Value
+RANKED,CoordinateAscent,rKL,0.18894988385784772
+RANKED,CoordinateAscent,DTR,-0.0
+RANKED,CoordinateAscent,DIR,0.0
+RANKED,CoordinateAscent,FairnessAtK,0.04

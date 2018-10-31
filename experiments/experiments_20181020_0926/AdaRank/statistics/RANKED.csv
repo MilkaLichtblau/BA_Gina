@@ -1,0 +1,5 @@
+Data_Set_Name,Algorithm_Name,Measure,Value
+RANKED,AdaRank,rKL,0.19854640071893698
+RANKED,AdaRank,DTR,-0.0
+RANKED,AdaRank,DIR,0.0
+RANKED,AdaRank,FairnessAtK,0.04

@@ -1,0 +1,5 @@
+Data_Set_Name,Algorithm_Name,Measure,Value
+RANKED,ListNet,rKL,0.04609230113778586
+RANKED,ListNet,DTR,0.99025133646
+RANKED,ListNet,DIR,0.902820700016
+RANKED,ListNet,FairnessAtK,1.0

@@ -1,0 +1,5 @@
+Data_Set_Name,Algorithm_Name,Measure,Value
+RERANKED,CoordinateAscent,rKL,0.22833828751685578
+RERANKED,CoordinateAscent,DTR,-0.0
+RERANKED,CoordinateAscent,DIR,0.0
+RERANKED,CoordinateAscent,FairnessAtK,0.04

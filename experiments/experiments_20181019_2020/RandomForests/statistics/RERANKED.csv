@@ -1,0 +1,5 @@
+Data_Set_Name,Algorithm_Name,Measure,Value
+RERANKED,RandomForests,rKL,0.10177766857024291
+RERANKED,RandomForests,DTR,-0.0
+RERANKED,RandomForests,DIR,0.0
+RERANKED,RandomForests,FairnessAtK,0.04

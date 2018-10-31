@@ -1,0 +1,4 @@
+The implementation in this folder was done by Laura Mons and was taken from https://github.com/MilkaLichtblau/BA_Laura.
+For more detail on this implementation refer to either https://github.com/MilkaLichtblau/BA_Laura
+and/or read L. Mons, “Benchmarking for fair machine learning algorithms,” BSc thesis, Technische
+Universität Berlin, 2018.

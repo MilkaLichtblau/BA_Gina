@@ -1,0 +1,4 @@
+Experiments properties 
+Executed 20102018 
+Relevance labels range: 10
+Metric: NDCG@50
