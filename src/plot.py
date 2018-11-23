@@ -43,7 +43,7 @@ def plot(filename, ranker, reranked, optimized=None):
     male = df.query(glob.protected_attribute + "==0.0")["rank"]
 
     female = df.query(glob.protected_attribute + "==1.0")["rank"]
-    legend = ['Non-protected', 'Protected']
+    legend = ['Protected', 'Non-protected']
 
     bins = np.linspace(0, 1092, 1092/25)
     male_hist = np.histogram(male, bins=bins, range=(0, 1092))
