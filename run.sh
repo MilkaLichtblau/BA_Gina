@@ -75,14 +75,14 @@ function runRanker {
 	echo " "
 	echo "########################################"
 
-	python main.py -merge -f "../data/formatted_data/$testdata" -pf "../$dir/$1/data/predictions.txt"
-	python main.py -merge -f "../data/formatted_data/$testdata" -pf "../$dir/$1/data/predictions_RERANKED.txt"
+	python3 main.py -merge -f "../data/formatted_data/$testdata" -pf "../$dir/$1/data/predictions.txt"
+	python3 main.py -merge -f "../data/formatted_data/$testdata" -pf "../$dir/$1/data/predictions_RERANKED.txt"
 
-	python main.py -plot -f "../$dir/$1/data/predictions_MERGED.csv" -r "$1" 
-	python main.py -plot -f "../$dir/$1/data/predictions_RERANKED_MERGED.csv" -r "$1" -rr  
+	python3 main.py -plot -f "../$dir/$1/data/predictions_MERGED.csv" -r "$1" 
+	python3 main.py -plot -f "../$dir/$1/data/predictions_RERANKED_MERGED.csv" -r "$1" -rr  
 
-	python main.py -measure -f "../$dir/$1/data/predictions_MERGED.csv" -r "$1" -k 1000 -d "../$dir/$1/statistics/" 
-	python main.py -measure -f "../$dir/$1/data/predictions_RERANKED_MERGED.csv" -r "$1" -k 1000 -d "../$dir/$1/statistics/" -rr 
+	python3 main.py -measure -f "../$dir/$1/data/predictions_MERGED.csv" -r "$1" -k 1000 -d "../$dir/$1/statistics/" 
+	python3 main.py -measure -f "../$dir/$1/data/predictions_RERANKED_MERGED.csv" -r "$1" -k 1000 -d "../$dir/$1/statistics/" -rr 
 
 }
 
@@ -104,8 +104,8 @@ max="$(($relevanceLabel-1))"
 cd src/
 
 # initially rank and rerank testdata
-python main.py -rank -rerank -f "../data/features.csv" -d "../data/formatted_data/" -fa "_TRAIN" -rs 1 -re 50 -rl $relevanceLabel
-python main.py -rank -rerank -f "../data/features.csv" -d "../data/formatted_data/" -fa "_TEST" -rs 51 -re 60 -rl $relevanceLabel
+python3 main.py -rank -rerank -f "../data/features.csv" -d "../data/formatted_data/" -fa "_TRAIN" -rs 1 -re 50 -rl $relevanceLabel
+python3 main.py -rank -rerank -f "../data/features.csv" -d "../data/formatted_data/" -fa "_TEST" -rs 51 -re 60 -rl $relevanceLabel
 
 # create new experiments dir
 dir="experiments/experiments_$(date +%Y%m%d_%H%M)"
