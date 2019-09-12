@@ -2,3 +2,5 @@
 *.pydevproject
 *.pyc
 *.pyo
+
+src/RankLib-2.10.jar
