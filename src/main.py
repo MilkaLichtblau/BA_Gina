@@ -16,9 +16,8 @@ parser.add_argument("-plot", help="Plots the distribution of the predicted ranki
 parser.add_argument("-merge", help="Merges the predicted scores with the initial feature file.", action="store_true")
 parser.add_argument("-measure", help="Measures rKL, DIR, DTR and Fairness@k for the predicted scores.", action="store_true")
 
-
 # global arguments
-parser.add_argument("-f", "--file", help="The feature file that is supposed to ranked be ranked. For initial ranking, "
+parser.add_argument("-f", "--file", help="The feature file that is supposed to be ranked. For initial ranking, "
                                          "the format should contain a header and comma as separator.", type=str)
 parser.add_argument("-d", "--dir", help="The directory where the output files should be saved. Default is the current directory.", type=str)
 parser.add_argument("-fa", "--filename_appendix", help="An appendix that is added to the filename of the feature file. Might be useful to mark files as training sets.", type=str)
@@ -40,9 +39,7 @@ parser.add_argument("-rr", "--reranked", help="Is reranked for plot title.", act
 parser.add_argument("-o", "--optimized", help="Is optimized towards some metric for plot title.", type=bool)
 parser.add_argument("-k", "--k", help="Length of ranking for fairness measures. Default is 1000", type=int)
 
-
 args = parser.parse_args()
-
 
 glob.filename_origin = args.file if args.file else glob.filename_origin
 glob.dir = args.dir if args.dir else glob.dir
